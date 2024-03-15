@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    image: evershop/evershop:latest
+    image: prithvirajawatade/shopinvent:latest
     restart: always
     environment:
       DB_HOST: database
